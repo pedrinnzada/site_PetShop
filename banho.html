@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>PetShop+</title>
+
+  <!-- Ícones Font Awesome (VERSÃO CERTA) -->
+  <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+  <link rel="stylesheet" href="banho.css">
+</head>
+<body>
+<header>
+
+  <div 
+    class="logo">PetShop+
+  </div>
+
+  <div class="menu-btn" onclick="toggleMenu()">
+    <i class="fa-solid fa-bars"></i>
+  </div>
+
+  <nav>
+    <ul id="menu">
+      <li><a href="/index.html">Tela Inicial</a></li>
+      <li><a href="#banhoetosa">Banho & Tosa</a></li>
+      <li><a href="#alimentacao">Alimentação</a></li>
+      <li><a href="#promocoes">Promoções</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="hero" id="agendar">
+  <div class="hero-content" >
+    <h2>Cuidando do seu pet com amor e carinho</h2>
+    <p>Do banho à alimentação, tudo o que seu melhor amigo precisa está aqui.
+      Atendimento com cuidado, carinho e profissionais que amam animais!
+    </p>
+
+    <a href="https://wa.me/5531992546664" class="whatsapp-btn" target="_blank" >
+      Agendar agora <i>➜</i>
+    </a>
+  </div>
+
+  <video autoplay muted loop playsinline>
+    <source src="/imagens/banho.mp4" type="video/mp4">
+    Seu navegador não suporta vídeos.
+  </video>
+</section>
+
+<section class="info-section">
+  <div class="info-card" id="banhoetosa">
+    <h3>🐾 Banho & Tosa Premium</h3>
+    <p>Serviços com produtos hipoalergênicos, secagem suave e muito amor
+para o seu pet sair cheiroso e feliz.</p>
+  </div>
+
+  <div class="img-container">
+    <img src="imagens/bet1.webp" alt="" class="img">
+    <img src="imagens/bet2.jpeg" alt="" class="img">
+    <img src="imagens/bet3.jpg" alt="" class="img">
+  </div>
+
+<div class="carousel mobile-only">
+  <div class="carousel-inner">
+    <img src="imagens/bet1.webp">
+    <img src="imagens/bet2.jpeg">
+    <img src="imagens/bet3.jpg">
+  </div>
+
+  <!-- bolinhas -->
+  <div class="dots"></div>
+</div>
+
+
+  <a href="#agendar" class="img-btn">
+      Agendar agora <i>➜</i>
+  </a>
+  <div class="info-card" id="alimentacao">
+    <h3>🦴 Alimentação Saudável</h3>
+    <p>As melhores marcas de ração, petiscos e suplementos para garantir
+        saúde e energia todos os dias.</p>
+  </div>
+  
+    <div class="botao">
+      <form action="/racao.html" >
+        <button class="btn"> Saber Mais </button>
+      </form>
+    </div>
+
+  <div class="info-card" id="promocoes">
+    <h3>🎉 Promoções Especiais</h3>
+    <p>Fique de olho nas ofertas semanais de banho, tosa e kits de ração com descontos incríveis!</p>
+  </div>
+
+   <div class="botao">
+      <form action="/index.html" >
+        <button class="btn"> Saber Mais </button>
+      </form>
+    </div>
+</section>
+
+<footer class="footer" id="contato">
+  <div class="footer-left">
+    <img src="pet_shop.jpg" alt="Imagem do Cachorro">
+  </div>
+
+  <div class="footer-right">
+    <h2>PetShop+</h2>
+    <p>Carinho, cuidado e bem-estar para seu melhor amigo.</p>
+
+    <div class="contato" id="contato">
+      <p><i class="fa-solid fa-phone"></i> (31) 99999-9999</p>
+      <p><i class="fa-solid fa-envelope"></i> petshop+@email.com</p>
+    </div>
+
+    <p class="copy">&copy; 2025 Pedro - Todos os direitos reservados.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
